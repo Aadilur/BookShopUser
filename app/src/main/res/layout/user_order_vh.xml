@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingLeft="@dimen/_10sdp"
+    android:paddingRight="@dimen/_10sdp"
+    android:paddingBottom="@dimen/_10sdp"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+
+    <ImageView
+        android:id="@+id/userCover"
+        android:layout_width="@dimen/_80sdp"
+        android:layout_height="@dimen/_120sdp"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+    <TextView
+        android:id="@+id/userTxnID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:text="Transaction ID"
+        app:layout_constraintBottom_toBottomOf="@+id/userCover"
+        app:layout_constraintStart_toEndOf="@+id/userCover"
+        app:layout_constraintTop_toTopOf="@+id/userCover"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/userStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="Status"
+        app:layout_constraintBottom_toBottomOf="@+id/userOrderDate"
+        app:layout_constraintStart_toEndOf="@+id/userOrderDate"
+        app:layout_constraintTop_toTopOf="@+id/userOrderDate" />
+
+    <TextView
+        android:id="@+id/userQuantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:text="Quantity"
+        app:layout_constraintStart_toStartOf="@+id/userAuthor"
+        app:layout_constraintTop_toBottomOf="@+id/userAuthor" />
+
+    <TextView
+        android:id="@+id/userTotalPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:text="Total Price"
+        app:layout_constraintBottom_toBottomOf="@+id/userQuantity"
+        app:layout_constraintStart_toEndOf="@+id/userQuantity"
+        app:layout_constraintTop_toTopOf="@+id/userQuantity"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/userBookName"
+        android:layout_width="@dimen/_195sdp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:text="Book Name"
+        app:layout_constraintStart_toStartOf="@+id/userTxnID"
+        app:layout_constraintTop_toBottomOf="@+id/userTxnID" />
+
+    <TextView
+        android:id="@+id/userAuthor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:text="Author"
+        app:layout_constraintStart_toStartOf="@+id/userBookName"
+        app:layout_constraintTop_toBottomOf="@+id/userBookName" />
+
+    <TextView
+        android:id="@+id/userOrderDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:text="Order Date"
+        app:layout_constraintStart_toStartOf="@+id/userQuantity"
+        app:layout_constraintTop_toBottomOf="@+id/userQuantity" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

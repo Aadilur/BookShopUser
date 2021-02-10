@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "1003968941850",
+    "firebase_url": "https://compact-it-default-rtdb.firebaseio.com",
+    "project_id": "compact-it",
+    "storage_bucket": "compact-it.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1003968941850:android:2de203db34f60af54fa6a3",
+        "android_client_info": {
+          "package_name": "com.compactadmin.compactit.compactitadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1003968941850-3r2sf0mduedm13fjesmhjrctp85oqojm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7StOyqw-S-bKDkM3SMOa-CyFGDuNRyEw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1003968941850-3r2sf0mduedm13fjesmhjrctp85oqojm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1003968941850:android:bb6fbe84e75ee7054fa6a3",
+        "android_client_info": {
+          "package_name": "com.compactit.compactit.compactisolution"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1003968941850-3r2sf0mduedm13fjesmhjrctp85oqojm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7StOyqw-S-bKDkM3SMOa-CyFGDuNRyEw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1003968941850-3r2sf0mduedm13fjesmhjrctp85oqojm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
